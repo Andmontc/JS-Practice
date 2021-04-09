@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url('./bg.jpeg');
   background-repeat: no-repeat;
@@ -66,6 +72,7 @@ body {
   background-color: rgb(0, 183, 255);
   background-image: linear-gradient( rgb(0, 162, 255), #06f0aa);
   color: white;
+  cursor: pointer;
 }
 .tablegen {
   border-radius: 30px;
@@ -83,6 +90,7 @@ body {
   font-size: 36px;
   color: lightgreen;
   text-shadow: 0 0 1rem chartreuse;
+  padding-bottom: 20px;
 }
 
 
@@ -109,7 +117,7 @@ body {
 }
 
 #tableNM {
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 #data {
