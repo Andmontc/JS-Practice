@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Matrix</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1 class="title-text"> Matrix App </h1>
+      <span class="text-span"> Insert the dimensions of the matrix <br/> The sum in all rows and columns must be 100</span>
+    </div>
+    <div class="inputs">
+      <div class="inputN">
+        <p class="input__text"> Number of Rows </p>
+        <input
+          type="number"
+          id="enterN"
+          placeholder=" #rows"
+          min="1"
+          value=""
+          >
+      </div>
+      <div class="inputM">
+        <p class="input__text"> Number of Columns </p>
+        <input
+          type="number"
+          id="enterM"
+          placeholder=" #columns"
+          min="1"
+          value=""
+          >
+      </div>
+    </div>
+    <div id="btns">
+      <button onclick="makeTable()" class="genTable">Generate Table</button>
+    </div>
+    <div id="tableNM"></div> 
+    <div id="error"></div>
+    <div id="errorc"></div>
+  </div>
+  <script src="./matrix.js"></script>
+</body>
+</html>
